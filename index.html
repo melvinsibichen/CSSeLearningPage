@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ELearning</title>
     <!--CSS Stylesheet Link-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <!--Boostrap  cdn Links-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,345 +18,302 @@
     <!--Fontawsome cdn Link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/681f9b9d8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" c
+        rossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <!--Navbar-->
-    <div class="Navbar">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-
-                <a class="navbar-brand"><i class="fa-solid fa-book" style="color: #46b1b9;"></i>eLEARNING</a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">COURSES</a>
-                    </li>
-
-
-                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <button class="nav-item" data-bs-toggle="dropdown" aria-expanded="false">
-                                    PAGES
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link-login ml-auto" href="#"><span>Join Now<i
-                                    class="fa-solid fa-arrow-right fa-lg"
-                                    style="color: #ebedef;width: 20%;padding: 1px;height: auto;"></i></span></a>
-                    </li>
+    <div class="container-fluid">
+        <!--NavBar-->
+        <header>
+            <nav>
+                <ul class="nav-bar">
+                    <a class="navbar-brand">
+                        <h2 class="m-0 "><i class="fa fa-book me-3"></i>eLEARNING</h2>
+                    </a>
+                    <input type="checkbox" id="check">
+                    <span class="menu">
+                        <li class="nav-center"><a href="">Home</a></li>
+                        <li class="nav-center"><a href="">ABOUT</a></li>
+                        <li class="nav-center"><a href="">COURSES</a></li>
+                        <li class="nav-center"><a href="">PAGES</a></li>
+                        <li class="nav-center"><a href="">CONTACT</a></li>
+                        <li class="nav-join-btn">
+                            <a class="nav-link-login ml-auto" href="#">
+                                <span>Join Now
+                                    <i class="fa-solid fa-arrow-right fa-lg"
+                                        style="color: #ebedef;width: 20%;padding: 1px;height: auto;"></i></span>
+                                    </a>
+                        </li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
                 </ul>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </header>
 
-
-
-
-
-
-
-
-
-
-
-    <!--Carosel-->
-    <section id="first-sec">
-        <div class="row">
-            <div class="column">
-                <h6 style="color: #06BBCC;font-size: 20px;font-weight: 900;margin-top: 30px;margin-left: 100px;">BEST
-                    ONLINE COURSES
-                </h6>
-                <h1 id="online"
-                    style="display: block;font-size: 60px;font-weight: 650;  color: white;margin-top: 10px;margin-left: 100px;">
-                    The Best
-                    Online Learning Platform</h1>
-                <p style="text-align: justify;margin-left: 100px; color: aliceblue;">Lorem ipsum dolor sit amet
-                    consectetur adipisicing
-                    elit. Quia officia velit consequuntur quasi minima, opti </p>
-
-                <div class="row">
-                    <div class="col">
-                        <button class="btnmore">Read More</button>
-                    </div>
-                    <div class="col">
-                        <button class="btnnow">Join Now</button>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="column" style="margin-top: 250px;">
-                <div class="arrow1" style="margin-left: 350px;">
-                    <i class="fa-solid fa-arrow-left" style="color: black;"></i>
-                </div>
-                <div class="arrow2" style="margin-left: 350px;">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-    <!--4 Card Session-->
-    <div class="fourcardsession">
-        <div class="row">
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem;">
-                    <div class="fourcard-body">
-                        <a><i class="fa-solid fa-graduation-cap fa-2xl" style="color: #2ee7ea;"></i></a>
-                        <h5 class="card-title">Skilled Instructor</h5>
-                        <p class="4card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem;">
-                    <div class="fourcard-body">
-                        <a><i class="fa-solid fa-globe fa-2xl" style="color: #4fcbe3;"></i></a>
-                        <h5 class="card-title">Online Classes</h5>
-                        <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem;">
-                    <div class="fourcard-body">
-                        <a><i class="fa-solid fa-house fa-2xl" style="color: #37dee1;"></i></a>
-                        <h5 class="card-title">Home Projects</h5>
-                        <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem;">
-                    <div class="fourcard-body">
-                        <a><i class="fa-solid fa-book-open fa-2xl" style="color: #2dd4d7;"></i></a>
-                        <h5 class="card-title">Book Library</h5>
-                        <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!--About Us-->
-    <div class="fourthsession">
-
-        <div class="card mb-12" style="max-width: 1200px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="./images/about.jpg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h6>ABOUT US<i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i></h6>
-                        <h5 class="card-title">Welcome to eLEARNING</h5>
-                        <p class="text">Tempor erat elitr rebum at clita.Diam dolor diam ipsum sit.Alique diam amet diam
-                            et eos.Clita erat ipsum et lorem et sit</p>
-
-                        <p class="text">Tempor erat elitr rebum at clita.Diam dolor diam ipsum sit.Alique diam amet diam
-                            et eos.Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo justo magna dolor erat
-                            amet.</p>
-
-                        <div class="row">
-                            <div class="col">
-                                <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Skilled
-                                    Instructors</div>
-                                <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i>
-                                    International Certificate</div>
-                                <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Online
-                                    Classes</div>
-                            </div>
-                            <div class="col">
-                                <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Online
-                                    Classes</div>
-                                <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i>
-                                    International Certificate</div>
-                                <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Skilled
-                                    Instructors</div>
-                            </div>
+        <!--Carosel-->
+        <div class="row" id="first-sec">
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div>
+                            <h6 style="color: #06BBCC;font-size: 4vh;font-weight: 900;margin-top: 30px;margin-left: 100px;">
+                                BESTONLINE COURSES</h6>
                         </div>
-
-
-                        <a href="#" class="btn-btn-primary py-3 px-5 mt-2 ">Read More</a>
-
+                        <div>
+                            <h1 id="online"
+                            style="display: block;font-size: 10vh;font-weight: 650;  color: white;margin-top: 10px;margin-left: 100px;">
+                            The Best Online Learning Platform</h1>
+                        </div>
+                        <div>
+                            <p style="text-align: justify;margin-left: 100px; color: aliceblue;font-size: 3vh;">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Quia officia velit consequuntur quasi minima, opti </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <button class="home-btn btnmore">Read More</button>
+                        </div>
+                        <div class="col-3">
+                            <button class="home-btn btnnow">Join Now</button>
+                        </div>
                     </div>
                 </div>
+                 <!--arrow-->
+                 <div class="col-4"></div>
+                 <!-- <div class="col-4" style="margin-top: 250px;">
+                    <div class="arrow1" style="margin-left: 350px;">
+                        <i class="fa-solid fa-arrow-left" style="color: black;"></i>
+                    </div>
+                    <div class="arrow2" style="margin-left: 350px;">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div> -->
+                
             </div>
         </div>
-    </div>
 
 
 
 
-
-    <!--Course Categories-->
-    <div class="heading-categories">
-        <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>CATEGORIES<i class="fa fa-grip-lines fa-2xl"
-                style="color: #75dae1;"></i></h5>
-        <h2>Course Categories</h2>
-    </div>
-
-    <div class="main-div-course">
-        <div class="sec-left">
-            <div class="sec-left-top"><img src="./images/cat-1.jpg" alt=""></div>
-            <div class="sec-left-bottom">
-                <div class="sec-left-bottom-left"> <img src="./images/cat-2.jpg" alt=""> </div>
-                <div class="sec-left-bottom-right"> <img src="./images/cat-3.jpg" alt=""></div>
-            </div>
-
-        </div>
-        <div class="sec-right"><img src="./images/cat-4.jpg"></div>
-    </div>
-
-
-
-
-
-
-
-    
-
-
-
-
-    <!--Popular Courses-->
-    <div class="fifthsession">
-        <div class="heading">
-            <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>COURSES<i class="fa fa-grip-lines fa-2xl"
-                    style="color: #75dae1;"></i></h5>
-            <h2>Popular Courses</h2>
-        </div>
-
-        <div class="pricecards">
+        <!--4 Card Session-->
+        <div class="fourcardsession">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/course-1.jpg" class="card-img-top" alt="...">
-                        <div class="course-body">
-                            <h4 class="card-text"><b>$149.99</b></h4>
-                            <div class="btn-group">
-                                <!-- Add a 5-star rating component here -->
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="card-text">(123)</span>
-                            </div>
-                            <p class="card-text"><b> Web Design & Development Course for Beginners</b></p> 
-
-
+                    <div class="card text-center mb-3" style="width: 16rem;">
+                        <div class="fourcard-body">
+                            <a><i class="fa-solid fa-graduation-cap fa-2xl" style="color: #2ee7ea;"></i></a>
+                            <h5 class="card-title">Skilled Instructor</h5>
+                            <p class="4card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet
+                                diam
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/course-2.jpg" class="card-img-top" alt="...">
-                        <div class="course-body">
-                            <h4 class="card-text"><b>$149.99</b></h4>
-                            <div class="btn-group">
-                                <!-- Add a 5-star rating component here -->
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="card-text">(123)</span>
-                            </div>
-                            <p class="card-text"><b> Web Design & Development Course for Beginners</b></p> 
-
-
+                    <div class="card text-center mb-3" style="width: 16rem;">
+                        <div class="fourcard-body">
+                            <a><i class="fa-solid fa-globe fa-2xl" style="color: #4fcbe3;"></i></a>
+                            <h5 class="card-title">Online Classes</h5>
+                            <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/course-3.jpg" class="card-img-top" alt="...">
-                        <div class="course-body">
-                            <h4 class="card-text"><b>$149.99</b></h4>
-                            <div class="btn-group">
-                                <!-- Add a 5-star rating component here -->
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="text-warning">&#9733;</span>
-                                <span class="card-text">(123)</span>
-                            </div>
-                            <p class="card-text"> <b> Web Design & Development Course for Beginners</b></p> 
-
-
+                    <div class="card text-center mb-3" style="width: 16rem;">
+                        <div class="fourcard-body">
+                            <a><i class="fa-solid fa-house fa-2xl" style="color: #37dee1;"></i></a>
+                            <h5 class="card-title">Home Projects</h5>
+                            <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-center mb-3" style="width: 16rem;">
+                        <div class="fourcard-body">
+                            <a><i class="fa-solid fa-book-open fa-2xl" style="color: #2dd4d7;"></i></a>
+                            <h5 class="card-title">Book Library</h5>
+                            <p class="card-text">Diam elitr kased sed at elitr sed ipsum justo dolor sed clita amet diam
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+
+
+        <!--About Us-->
+        <div class="aboutus">
+            <div class="card mb-12" style="max-width: 1200px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/about.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h6>ABOUT US<i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i></h6>
+                            <h5 class="card-title">Welcome to eLEARNING</h5>
+                            <p class="text">Tempor erat elitr rebum at clita.Diam dolor diam ipsum sit.Alique diam amet
+                                diam
+                                et eos.Clita erat ipsum et lorem et sit</p>
+                            <p class="text">Tempor erat elitr rebum at clita.Diam dolor diam ipsum sit.Alique diam amet
+                                diam
+                                et eos.Clita erat ipsum et lorem et sit,sed stet lorem sit clita duo justo magna dolor
+                                eratamet.</p>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i>
+                                        SkilledInstructors</div>
+                                    <div class="row"><i class="fas fa-arrow-right"
+                                            style="color: #75dae1;"></i>International
+                                        Certificate</div>
+                                    <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Online
+                                        Classes</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Online
+                                        Classes</div>
+                                    <div class="row"><i class="fas fa-arrow-right"
+                                            style="color: #75dae1;"></i>International
+                                        Certificate</div>
+                                    <div class="row"><i class="fas fa-arrow-right" style="color: #75dae1;"></i> Skilled
+                                        Instructors</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn-btn-primary py-3 px-5 mt-2 ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
 
 
-
-
-
-    <!--Expert Instructors-->
-    <div class="sixth">
-
-        <div class="heading">
-            <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>INSTRUCTORS<i
+        <!--Course Categories-->
+        <div class="course-categories">
+            <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>CATEGORIES<i
                     class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i></h5>
-            <h2>Expert Instructors</h2>
+            <h2>Course Categories</h2>
         </div>
 
-        <div class="Instructor-card">
-            <div class="row">
+        <div class="categories row">
+                <div class="col-7" >
+                    <div class="col-12 imgGal-top-left" style="margin-bottom: 1.5vh;">
+                    </div>
+                    <div class="row" style="padding-left: 1.5vh;padding-right: 1.2vh">
+                        <div class="col-6 imgGal-bottom-left"></div>
+                    <div class="col-6 imgGal-bottom-right"></div>
+                    </div>
+                </div>
+                <div class="col-5 imgGal-right">
+
+                </div>
+            <!-- <div class="sec-left">
+                <div class="sec-left-top"><img src="./images/cat-1.jpg" alt=""></div>
+                <div class="sec-left-bottom">
+                    <div class="sec-left-bottom-left"> <img src="./images/cat-2.jpg" alt=""> </div>
+                    <div class="sec-left-bottom-right"> <img src="./images/cat-3.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="sec-right"><img src="./images/cat-4.jpg"></div> -->
+        </div>
+
+
+
+
+
+        <!--Popular Courses-->
+        <div class="popularcourses">
+            <div class="heading">
+                <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>COURSES<i
+                        class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i></h5>
+                <h2>Popular Courses</h2>
+            </div>
+
+            <div class="pricecards">
+                <div class="row side-margin">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./images/course-1.jpg" class="card-img-top" alt="...">
+                            <div class="pricecards-body">
+                                <h4 class="card-text"><b>$149.99</b></h4>
+                                <div class="btn-group">
+                                    <!-- Add a 5-star rating component here -->
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="card-text">(123)</span>
+                                </div>
+                                <p class="card-text"><b> Web Design & Development Course for Beginners</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./images/course-2.jpg" class="card-img-top" alt="...">
+                            <div class="pricecards-body">
+                                <h4 class="card-text"><b>$149.99</b></h4>
+                                <div class="btn-group">
+                                    <!-- Add a 5-star rating component here -->
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="card-text">(123)</span>
+                                </div>
+                                <p class="card-text"><b> Web Design & Development Course for Beginners</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./images/course-3.jpg" class="card-img-top" alt="...">
+                            <div class="pricecards-body">
+                                <h4 class="card-text"><b>$149.99</b></h4>
+                                <div class="btn-group">
+                                    <!-- Add a 5-star rating component here -->
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="text-warning">&#9733;</span>
+                                    <span class="card-text">(123)</span>
+                                </div>
+                                <p class="card-text"> <b> Web Design & Development Course for Beginners</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--Expert Instructors-->
+        <div class="instructors">
+
+            <div class="heading">
+                <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>INSTRUCTORS<i
+                        class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i></h5>
+                <h2>Expert Instructors</h2>
+            </div>
+
+            <!-- <div class="Instructor-card"> -->
+            <div class="row Instructor-card side-margin">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="./images/team-1.jpg" class="card-img-top" alt="...">
 
                         <div class="col-facebook">
@@ -371,7 +329,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="./images/team-2.jpg" class="card-img-top" alt="...">
 
                         <div class="col-facebook">
@@ -387,7 +345,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="./images/team-3.jpg" class="card-img-top" alt="...">
 
                         <div class="col-facebook">
@@ -403,7 +361,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <img src="./images/team-4.jpg" class="card-img-top" alt="...">
 
                         <div class="col-facebook">
@@ -419,154 +377,127 @@
                     </div>
                 </div>
             </div>
+            <!-- </div> -->
         </div>
 
 
-    </div>
 
-
-
-
-
-
-
-
-    <!--testimonial-->
-    <div class="testimonial">
-        <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>TESTIMONIAL<i class="fa fa-grip-lines fa-2xl"
-                style="color: #75dae1;"></i></h5>
-        <h1>Our Students Say!</h1>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="card-testimonial" style="width: 18rem;">
-                <img src="./images/testimonial-1.jpg" class="card-img-top p-2 mx-auto mb-3" alt="...">
-                <div class="card-body">
-                    <h4 class="name">Client Name</h4>
-                    <p class="designation">Profession</p>
-                    <div class="card-text">
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
-                            ipsum et lorem et sit.</p>
-                    </div>
-
-                </div>
-            </div>
+        <!--testimonial-->
+        <div class="testimonial">
+            <h5><i class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i>TESTIMONIAL<i
+                    class="fa fa-grip-lines fa-2xl" style="color: #75dae1;"></i></h5>
+            <h1>Our Students Say!</h1>
         </div>
-        <div class="col">
-            <div class="card-testimonial" style="width: 18rem;">
-                <img src="./images/testimonial-2.jpg" class="card-img-top p-2 mx-auto mb-3" alt="...">
-                <div class="card-body">
-                    <h4 class="name">Client Name</h4>
-                    <p class="designation">Profession</p>
-                    <div class="card-text">
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
-                            ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card-testimonial" style="width: 18rem;">
-                <img src="./images/testimonial-4.jpg" class="card-img-top p-2 mx-auto mb-3" alt="...">
-                <div class="card-body">
-                    <h4 class="name">Client Name</h4>
-                    <p class="designation">Profession</p>
-                    <div class="card-text">
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat
-                            ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!--footer-->
-    <div class="footer">
         <div class="row">
-            <div class="col-md-3">
-                <ul>
-                    <h4>Quick Links</h4>
-                    <p>About Us</p>
-                    <p>Contact Us</p>
-                    <p>Privacy Policy</p>
-                    <p>Terms & Condition</p>
-                    <p>FAQs & Help</p>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <ul style="list-style:none">
-                    <h4>Contact</h4>
-                    <li><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</li>
-                    <li><i class="fas fa-phone"></i> +012 34567890</li>
-                    <li><i class="fas fa-envelope"></i> info@example.com</li>
-                    <i class="fab fa-twitter fa-lg"></i>
-                    <i class="fab fa-facebook fa-lg"></i>
-                    <i class="fab fa-youtube fa-lg"></i>
-                    <i class="fab fa-linkedin fa-lg"></i>
-                </ul>
-            </div>
-
-
-            <div class="col-md-3">
-                <h4>Gallery</h4>
-                <div class="gallery">
-                    <div class="gallery-item">
-                        <img src="./images/course-2.jpg" alt="Photo 1">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="./images/course-3.jpg" alt="Photo 2">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="./images/cat-3.jpg" alt="Photo 3">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="./images/cat-2.jpg" alt="Photo 4">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="./images/course-1.jpg" alt="Photo 5">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="./images/course-2.jpg" alt="Photo 6">
+            <div class="col">
+                <div class="card-testimonial" style="width: 18rem;">
+                    <img src="./images/testimonial-1.jpg" class="card-img-top p-2 mx-auto mb-3" alt="...">
+                    <div class="card-body">
+                        <h4 class="name">Client Name</h4>
+                        <p class="designation">Profession</p>
+                        <div class="card-text">
+                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita
+                                erat ipsum et lorem et sit.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-
-
-            <div class="col-md-3">
-                <h4>NewsLetter</h4>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                <label for="signup">Your email</label>
-                <button id="signup" type="button">Sign Up</button>
+            <div class="col">
+                <div class="card-testimonial" style="width: 18rem;">
+                    <img src="./images/testimonial-2.jpg" class="card-img-top p-2 mx-auto mb-3" alt="...">
+                    <div class="card-body">
+                        <h4 class="name">Client Name</h4>
+                        <p class="designation">Profession</p>
+                        <div class="card-text">
+                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita
+                                erat ipsum et lorem et sit.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+            <div class="col">
+                <div class="card-testimonial" style="width: 18rem;">
+                    <img src="./images/testimonial-4.jpg" class="card-img-top p-2 mx-auto mb-3" alt="...">
+                    <div class="card-body">
+                        <h4 class="name">Client Name</h4>
+                        <p class="designation">Profession</p>
+                        <div class="card-text">
+                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita
+                                erat ipsum et lorem et sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
+
+
+
+        <!--footer-->
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul>
+                        <h4>Quick Links</h4>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms & Condition</p>
+                        <p>FAQs & Help</p>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul style="list-style:none">
+                        <h4>Contact</h4>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</li>
+                        <li><i class="fas fa-phone"></i> +012 34567890</li>
+                        <li><i class="fas fa-envelope"></i> info@example.com</li>
+                        <i class="fab fa-twitter fa-lg"></i>
+                        <i class="fab fa-facebook fa-lg"></i>
+                        <i class="fab fa-youtube fa-lg"></i>
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Gallery</h4>
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="./images/course-2.jpg" alt="Photo 1">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./images/course-3.jpg" alt="Photo 2">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./images/cat-3.jpg" alt="Photo 3">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./images/cat-2.jpg" alt="Photo 4">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./images/course-1.jpg" alt="Photo 5">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="./images/course-2.jpg" alt="Photo 6">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>NewsLetter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <label class="footer-label">Your email</label>
+                    <button class="footer-button">Sign Up</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--CopyRight-->
+        <div class="copyright">
+            @Your Site Name,ALL Right Reserved.Designed by Melvin Sibichen.
+        </div>
     </div>
-
-
-
-
-    <!--CopyRight-->
-    <div class="copyright">
-        @Your Site Name,ALL Right Reserved.Designed by Melvin Sibichen.
-    </div>
-
-
-
-
-
-
-
-
 </body>
 
 </html>
